@@ -10,11 +10,9 @@ from dotenv import load_dotenv
 import os
 from chainlit.config import config
 
-# Loading environment variables from .env file
-load_dotenv() 
 
 # Function to initialize conversation chain with GROQ language model
-groq_api_key = os.environ['GROQ_API_KEY']
+groq_api_key = "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"
 
 # Initializing GROQ chat with provided API key, model name, and settings
 llm_groq = ChatGroq(
