@@ -12,7 +12,7 @@ from chainlit.config import config
 
 
 # Function to initialize conversation chain with GROQ language model
-groq_api_key = "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"
+groq_api_key = "##"
 
 # Initializing GROQ chat with provided API key, model name, and settings
 llm_groq = ChatGroq(
